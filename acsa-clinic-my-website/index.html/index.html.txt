@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACSA Psychology Clinic</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container">
+      <h1 class="logo">ACSA Psychology Clinic</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="doctors.html">Our Doctors</a></li>
+          <li><a href="appointment.html">Appointments</a></li>
+          <li><a href="promotions.html">Promotions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Empowering Minds, Restoring Balance</h2>
+      <p>Your mental well-being is our priority. Professional therapy in a safe, welcoming environment.</p>
+      <a href="appointment.html" class="btn">Book Appointment</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <h3>Individual Therapy</h3>
+          <p>Personalized sessions to help you cope with stress, anxiety, and emotional challenges.</p>
+        </div>
+        <div class="card">
+          <h3>Family & Couples Therapy</h3>
+          <p>Strengthen your relationships with professional guidance and communication strategies.</p>
+        </div>
+        <div class="card">
+          <h3>Child & Adolescent Therapy</h3>
+          <p>Support your child’s emotional and behavioral development with experienced therapists.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promotions Section -->
+  <section class="promotions">
+    <div class="container">
+      <h2>Current Promotions</h2>
+      <div class="promo-cards">
+        <div class="card">
+          <h3>First Session Discount</h3>
+          <p>Get 20% off your first therapy session. Book today!</p>
+        </div>
+        <div class="card">
+          <h3>Referral Program</h3>
+          <p>Refer a friend and both receive a free 30-min consultation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ACSA Psychology Clinic. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
