@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Doctors | ACSA Psychology Clinic</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">ACSA Psychology Clinic</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="doctors.html" class="active">Our Doctors</a></li>
+          <li><a href="appointment.html">Appointments</a></li>
+          <li><a href="promotions.html">Promotions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Doctors Section -->
+  <section class="services">
+    <div class="container">
+      <h2>Meet Our Psychologists</h2>
+      <p>Our qualified mental health professionals are here to guide you towards healing and balance.</p>
+
+      <div class="service-cards">
+        <div class="card">
+          <img src="https://via.placeholder.com/200x200" alt="Dr. Aisha Rahman" style="border-radius:50%; margin-bottom:1rem;">
+          <h3>Dr. Aisha Rahman</h3>
+          <p><strong>Clinical Psychologist</strong><br>Specializes in anxiety, trauma, and emotional regulation therapy.</p>
+          <a href="appointment.html" class="btn">Book Now</a>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/200x200" alt="Dr. Farid Ahmad" style="border-radius:50%; margin-bottom:1rem;">
+          <h3>Dr. Farid Ahmad</h3>
+          <p><strong>Child & Family Therapist</strong><br>Focuses on behavioral issues, parenting guidance, and family therapy.</p>
+          <a href="appointment.html" class="btn">Book Now</a>
+        </div>
+
+        <div class="card">
+          <img src="https://via.placeholder.com/200x200" alt="Dr. Nurul Izzah" style="border-radius:50%; margin-bottom:1rem;">
+          <h3>Dr. Nurul Izzah</h3>
+          <p><strong>Counseling Psychologist</strong><br>Expert in stress management, relationship therapy, and self-growth counseling.</p>
+          <a href="appointment.html" class="btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ACSA Psychology Clinic. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

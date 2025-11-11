@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment | ACSA Psychology Clinic</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">ACSA Psychology Clinic</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="doctors.html">Our Doctors</a></li>
+          <li><a href="appointment.html" class="active">Appointments</a></li>
+          <li><a href="promotions.html">Promotions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Appointment Form -->
+  <section class="services">
+    <div class="container">
+      <h2>Book an Appointment</h2>
+      <p>Please fill out the form below and our team will contact you shortly to confirm your session.</p>
+
+      <form action="https://formspree.io/f/your_form_id" method="POST" class="appointment-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="+60 12-345 6789" required>
+
+        <label for="doctor">Select Doctor</label>
+        <select id="doctor" name="doctor" required>
+          <option value="">-- Choose a Doctor --</option>
+          <option>Dr. Aisha Rahman</option>
+          <option>Dr. Farid Ahmad</option>
+          <option>Dr. Nurul Izzah</option>
+        </select>
+
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="message">Additional Notes</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us a bit about what you'd like to discuss..."></textarea>
+
+        <button type="submit" class="btn">Submit Appointment Request</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ACSA Psychology Clinic. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
