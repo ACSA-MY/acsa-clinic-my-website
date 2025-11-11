@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promotions | ACSA Psychology Clinic</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">ACSA Psychology Clinic</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="doctors.html">Our Doctors</a></li>
+          <li><a href="appointment.html">Appointments</a></li>
+          <li><a href="promotions.html" class="active">Promotions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Promotions Section -->
+  <section class="promotions">
+    <div class="container">
+      <h2>Our Current Promotions</h2>
+      <p>Discover our latest offers and wellness initiatives designed to make quality mental health care more accessible for everyone.</p>
+
+      <div class="promo-cards">
+        <div class="card">
+          <h3>🌿 New Client Welcome Offer</h3>
+          <p>Enjoy 20% off your first counseling session when you book this month. Take the first step towards better mental health today!</p>
+          <a href="appointment.html" class="btn">Book Now</a>
+        </div>
+
+        <div class="card">
+          <h3>💬 Student Support Program</h3>
+          <p>Special discounted rates for university and college students seeking stress management or academic support counseling.</p>
+          <a href="appointment.html" class="btn">Learn More</a>
+        </div>
+
+        <div class="card">
+          <h3>🤝 Corporate Wellness Package</h3>
+          <p>Provide mental health support for your employees. Contact us to arrange customized workshops and group sessions.</p>
+          <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ACSA Psychology Clinic. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
